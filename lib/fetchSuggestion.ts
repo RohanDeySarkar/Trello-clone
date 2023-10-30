@@ -11,10 +11,11 @@ const fetchSuggestion =async (board: Board) => {
         body: JSON.stringify({ todos })
     });
 
-    const GPTdata = await res.json();
-    const { content } = GPTdata;
-
-    return content;
+    if (res) {
+        const GPTdata = await res.json();
+        const { content } = GPTdata;
+        return content;
+    } else return null
 }
 
 export default fetchSuggestion;
