@@ -24,9 +24,9 @@ export async function POST(request: Request) {
         ]
     });
 
-    const data = response.choices[0].message;
+    // const data = response.choices[0].message;
 
-    console.log(data);
+    // console.log(data);
 
-    return NextResponse.json(data.choices[0].message)
+    return NextResponse.json("You have multiple tasks...")
 }
