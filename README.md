@@ -1,4 +1,6 @@
-![]()
+Deployed here --> https://trello-en3ioyhr9-rohandeysarkar.vercel.app/?__vercel_draft=1
+
+![](https://github.com/RohanDeySarkar/Trello-clone/blob/master/sample_img_trello.png?raw=true)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
